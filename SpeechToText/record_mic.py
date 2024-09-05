@@ -18,7 +18,7 @@ stream = p.open(
 
 print('start recording')
 
-seconds = 5
+seconds = 10
 frames = []
 
 for i in range(0,int(RATE/FRAME_PER_BUFFER * seconds)):
